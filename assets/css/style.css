@@ -15,18 +15,30 @@ body {
     font-family: sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'playfair-display-regular - latin';
+    letter-spacing: 3px;
+    color:  #fab1a0;
+}
+
 /* Header */
 header {
-    background-color: rgb(244, 240, 240);
+    background-color: rgb(169, 233, 233);
 }
-h1 {
-    font-family: 'playfair-display-regular - latin';
-  
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    list-style-type: none;
 }
 
 /* Main content */
 main {
-    background-color: lightblue;
+    background-color: rgb(169, 233, 233);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
