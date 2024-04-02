@@ -17,10 +17,10 @@ body {
 
 /* Header */
 header {
-    background-color: red;
+    background-color: rgb(244, 240, 240);
 }
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'playfair-display-regular - latin';
   
 }
 
