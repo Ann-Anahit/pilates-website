@@ -1,0 +1,8 @@
+
+
+h1 {
+    font-family: 'Oswald';
+    color: var(--primary-color);
+    background: #333333;
+    border-radius: var(--default-border-radius);
+}
