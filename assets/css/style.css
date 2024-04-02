@@ -5,14 +5,6 @@
     box-sizing: border-box;
 }
 
-
-h1 {
-    font-family: 'Oswald';
-    color: var(--primary-color);
-    background: #333333;
-    border-radius: var(--default-border-radius);
-}
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -26,6 +18,10 @@ body {
 /* Header */
 header {
     background-color: red;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+  
 }
 
 /* Main content */
