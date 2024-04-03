@@ -35,10 +35,17 @@ header a {
     color: inherit;
 }
 
-.right {
+.right .nav {
     font-size: 120%;
     letter-spacing: 4px;
     list-style-type: none;
+}
+
+li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #1d1d1d;
 }
 
 /* Main content */
