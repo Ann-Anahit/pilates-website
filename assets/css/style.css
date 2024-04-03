@@ -61,13 +61,13 @@ li {
 .active {
     border-bottom: 1px solid #1d1d1d;
 }
-.nav {
+ul {
     position: absolute;
     width: 100%;
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    top: 100%;
+   display: none;
 }
 
 /* Nav toggle */
