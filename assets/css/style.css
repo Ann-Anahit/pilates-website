@@ -20,20 +20,24 @@ body {
 h1, h2, h3 {
     font-family: 'playfair-display-regular - latin';
     letter-spacing: 3px;
-    color:  #1d1d1d;
 }
 
 /* Header */
 #logo {
-        width: 100px;
-        margin: 50px;
-        float: left;
-    }
+    width: 300px;
+    position: absolute;
+    
+}
+#title {
+    font-size: 500%;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
 
 header {
     padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
+    position:fixed;
     width: 100%;
     display: flex;
     box-shadow: 0 2px 3px #1d1d1d;
@@ -45,7 +49,7 @@ header a {
 
 .right .nav {
     font-size: 120%;
-    letter-spacing: 4px;
+    letter-spacing:inherit;
     list-style-type: none;
 }
 
