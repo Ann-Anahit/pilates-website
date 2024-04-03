@@ -13,6 +13,7 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: sans-serif;
+    background-color: rgb(169, 233, 233);
 }
 
 h1, h2, h3 {
@@ -23,7 +24,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-color: rgb(169, 233, 233);
+    
 }
 header a {
     text-decoration: none;
@@ -38,7 +39,6 @@ header a {
 
 /* Main content */
 main {
-    background-color: rgb(169, 233, 233);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
