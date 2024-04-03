@@ -16,18 +16,26 @@ body {
     background-color: rgb(169, 233, 233);
 }
 
+
 h1, h2, h3 {
     font-family: 'playfair-display-regular - latin';
     letter-spacing: 3px;
-    color:  #3a3a3a;
+    color:  #1d1d1d;
 }
 
 /* Header */
+#logo {
+        width: 100px;
+        margin: 50px;
+        float: left;
+    }
+
 header {
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
     box-shadow: 0 2px 3px #1d1d1d;
 }
 header a {
@@ -53,7 +61,6 @@ li {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
     top: 100%;
 }
 
