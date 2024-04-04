@@ -30,8 +30,6 @@ h1, h2, h3 {
 #logo {
     width: 200px;
     margin: 0px;
-
-  
 }   
 #title {
     font-size: 30px;
@@ -42,6 +40,14 @@ nav ul li {
     display: inline;
     margin: 10px 0 10px 0;
     word-spacing: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 5px 15px;
+}
+nav li a:hover {
+    border-bottom: 2px solid #212121;
 }
 
 header {
@@ -70,9 +76,7 @@ ul {
 li {
     margin-bottom: 1em;
 }
-.active {
-    border-bottom: 1px solid #1d1d1d;
-}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -93,8 +97,33 @@ main {
 }
 
 /* Footer */
+ #logofooter {
+    width: 40px;
+    margin: 20px;
+    float: left;
+    
+}
 footer {
-    background-color: orange;
     bottom: 100%;
+}
+#footerhr {
+    margin-top: 25px;
+}
+.footer {
 
+}
+#legalnav {
+    margin: 30px 0px;
+}
+#legalnav li {
+    float: right;
+    margin: 0px 10px;
+    font-size: 12px;
+}
+#legalnav li a {
+    text-decoration: none;
+}
+.social {
+    height: 25px;
+    text-decoration: none;
 }
