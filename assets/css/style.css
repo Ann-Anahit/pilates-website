@@ -28,18 +28,20 @@ h1, h2, h3 {
 
 /* Header */
 #logo {
-    width: 40px;
-    margin: 20px;
-    float: left;
+    width: 200px;
+    margin: 0px;
+
+  
 }   
 #title {
-    font-size: 200%;
+    font-size: 30px;
     font-weight:lighter;
-    margin: 100px 0 0 100px;
+    margin: 20px 100px 0 10px;
 }
 nav ul li {
     display: inline;
-    margin-left: 10px;
+    margin: 10px 0 10px 0;
+    word-spacing: 10px;
 }
 
 header {
@@ -59,20 +61,18 @@ header a {
     float:right;
     margin-bottom: 1em;
 }
-
-li {
-    margin-bottom: 1em;
-}
-.active {
-    border-bottom: 1px solid #1d1d1d;
-}
 ul {
     position: absolute;
     float: left;
     width: 100%;
     padding: 0 1rem;  
 }
-
+li {
+    margin-bottom: 1em;
+}
+.active {
+    border-bottom: 1px solid #1d1d1d;
+}
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
