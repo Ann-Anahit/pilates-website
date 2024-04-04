@@ -7,17 +7,20 @@
 
 /* General */
 body {
-   
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
     background-color: rgb(169, 233, 233);
-    display: block;
-    margin: 8px;
 }
 
-
+h1 {
+    text-transform: uppercase;
+    font-weight: lighter;
+}
 h1, h2, h3 {
     font-family: 'playfair-display-regular - latin';
     letter-spacing: 3px;
@@ -25,16 +28,15 @@ h1, h2, h3 {
 
 /* Header */
 #logo {
-    width: 300px;
-    position: absolute;
-  
-    
+    width: 40px;
+    margin: 20px;
+    float: left;
+}   
 }
 #title {
-    font-size: 500%;
+    font-size: 200%;
     font-weight:lighter;
     margin: 100px 0 0 100px;
-
 }
 
 
@@ -48,11 +50,11 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-
-.right .nav {
-    font-size: 120%;
-    letter-spacing:inherit;
+.menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
+    float:right;
 }
 
 li {
@@ -63,11 +65,9 @@ li {
 }
 ul {
     position: absolute;
+    float: left;
     width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-   
+    padding: 0 1rem;  
 }
 
 /* Nav toggle */
@@ -92,4 +92,6 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+    bottom: 100%;
+
 }
