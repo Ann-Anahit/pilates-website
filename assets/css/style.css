@@ -43,8 +43,7 @@ h1, h2, h3 {
 }   
 #title {
     font-size: 30px;
-    font-weight:lighter;
-   
+    font-weight:lighter;  
 }
 nav ul li {
     display: inline;
