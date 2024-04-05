@@ -35,6 +35,9 @@ h1, h2, h3 {
     font-family: 'playfair-display-regular - latin';
     letter-spacing: 2px;
 }
+#circle {
+    margin: 10px 20px;
+}
 
 /* Header */
 #logo {
@@ -128,7 +131,7 @@ footer {
     margin: 30px 0px;
 }
 #legalnav {
-    margin: 30px 0px;
+
    
 }
 #legalnav li {
@@ -140,3 +143,35 @@ footer {
     height: 25px;
     text-decoration: none;
 }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
