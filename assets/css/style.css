@@ -1,8 +1,8 @@
 :root {
     --basic-distance: 16px;
-    --background-color: #B4FEE7;
+    --background-color: #d5bdfd;
     --text-color: #333;
-    --primary-color: #A16AE8;
+    --primary-color: #3CACAE;
     --secondary-color: #603F8B;
 }
 
@@ -55,7 +55,13 @@ main {
 
 .header-element__logo img {
     width: 100px;
-    height: 100px;
+    height: 200px;
+}
+
+/* main */
+
+.center {
+    text-align: center;
 }
 
 /* navbar */
@@ -78,6 +84,78 @@ nav ul li a {
 nav ul li a:hover {
     color: var(--secondary-color);
 }
+
+/* Hamburger/Cross icon styles */
+.menu-icon {
+    top: var(--basic-distance);
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: var(--primary-color);
+    transition: all 0.3s ease;
+}
+
+.menu-icon::before {
+    top: -10px;
+}
+
+.menu-icon::after {
+    bottom: -10px;
+}
+
+#menu-toggle:checked~.menu-icon {
+    background: transparent;
+}
+
+#menu-toggle:checked~.menu-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+#menu-toggle:checked~.menu-icon::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+}
+
+#menu-toggle {
+    top: var(--basic-distance);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#menu-toggle:checked~nav ul {
+    display: flex;
+}
+
+/* Footer */
+
+#logofooter {
+    width: 40px;
+    margin-bottom: var(--basic-distance);
+    float: left;
+}
+
+.footer ul li {
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
 
 /* Media query: tablets and larger (768px) */
 
