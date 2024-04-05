@@ -1,7 +1,23 @@
 :root {
     --basic-distance: 16px;
-    --background-color: #ffffff;
-    --text-color: #000000;
-    --primary-color: #ff6a00;
-    --secondary-color: #467b71;
+    --background-color: #B4FEE7;
+    --text-color: #333;
+    --primary-color: #A16AE8;
+    --secondary-color: #603F8B;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'playfair-display-regular - latin', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: var(--basic-distance);
+    box-sizing: border-box;
 }
