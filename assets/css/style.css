@@ -6,6 +6,7 @@
     --secondary-color: #603F8B;
 }
 
+/* General */
 body,
 html {
     margin: 0;
@@ -20,4 +21,60 @@ html {
     background-color: var(--background-color);
     padding: var(--basic-distance);
     box-sizing: border-box;
+}
+
+/* Header */
+
+header,
+main,
+footer {
+    width: 1280px;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+}
+
+.header-element.title {
+    display: flex;
+    align-items: center;
+    gap: var(--basic-distance);
+}
+
+.header-element.title h1 {
+    color: var(--primary-color);
+    margin: 0;
+}
+
+.header-element__logo img {
+    width: 100px;
+    height: 100px;
+}
+
+/* navbar */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
 }
