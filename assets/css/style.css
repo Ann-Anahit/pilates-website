@@ -145,11 +145,14 @@ nav ul li a:hover {
 /* main about */
 .about {
     font-family: 'playfair-display-regular - latin', sans-serif;
-    ;
 }
 
 .linehight {
     line-height: 30px;
+}
+
+.self_align_center {
+    vertical-align: middle;
 }
 
 /* Footer */
@@ -175,7 +178,6 @@ footer #logofooter {
 
 footer #company {
     vertical-align: middle;
-    color: aquamarine;
 }
 
 #legalnav li {
