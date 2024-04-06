@@ -156,6 +156,36 @@ nav ul li a:hover {
 }
 
 /* main contact */
+form input {
+    width: 250px;
+    padding: 8px;
+    box-sizing: content-box;
+    border-radius: 8px;
+}
+
+form label,
+form input {
+    left: 24%;
+    display: block;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+user agent stylesheet input[type="text" i] {
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+p h2 {
+    line-height: 1.5;
+    margin-top: 10px;
+    padding: 2px;
+    font-family: 'playfair-display-regular - latin'
+        font-size: 8px;
+    text-align: center;
+    color: var(--primary-color);
+
+}
 
 /* Footer */
 
