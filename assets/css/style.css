@@ -142,6 +142,15 @@ nav ul li a:hover {
     display: flex;
 }
 
+/* main about */
+.about {
+    font-family: 'playfair-display-regular - latin', sans-serif;
+    ;
+}
+
+.linehight {
+    line-height: 30px;
+}
 
 /* Footer */
 
