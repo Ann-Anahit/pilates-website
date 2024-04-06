@@ -143,8 +143,9 @@ nav ul li a:hover {
 }
 
 /* main about */
+
 .about {
-    font-family: 'playfair-display-regular - latin', sans-serif;
+    font-family: sans-serif;
 }
 
 .linehight {
@@ -156,6 +157,10 @@ nav ul li a:hover {
 }
 
 /* main contact */
+.contact {
+    text-decoration-color: #603F8B;
+}
+
 form input {
     width: 250px;
     padding: 8px;
@@ -176,16 +181,6 @@ user agent stylesheet input[type="text" i] {
     padding-inline: 2px;
 }
 
-p h2 {
-    line-height: 1.5;
-    margin-top: 10px;
-    padding: 2px;
-    font-family: 'playfair-display-regular - latin'
-        font-size: 8px;
-    text-align: center;
-    color: var(--primary-color);
-
-}
 
 /* Footer */
 
