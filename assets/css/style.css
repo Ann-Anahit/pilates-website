@@ -155,6 +155,8 @@ nav ul li a:hover {
     vertical-align: middle;
 }
 
+/* main contact */
+
 /* Footer */
 
 footer {
@@ -163,12 +165,6 @@ footer {
     vertical-align: middle;
 }
 
-.div_without_list_style_type ul li {
-    font-size: 150px;
-    letter-spacing: 1px;
-    list-style-type: none;
-    margin-left: 34px;
-}
 
 footer #logofooter {
     width: 50px;
@@ -178,20 +174,16 @@ footer #logofooter {
 
 footer #company {
     vertical-align: middle;
-}
-
-#legalnav li {
-    float: right;
-    margin: 0px 10px;
-    font-size: 8px;
+    color: var(--primary-color)
 }
 
 .social {
-    height: 25px;
+    height: 15px;
+    color: var(--primary-color);
 }
 
-.tenasklni {
-    width: 50px;
+.logo_width {
+    width: 35px;
 }
 
 .table_footer {
@@ -201,6 +193,10 @@ footer #company {
 
 .self_align_right {
     float: right;
+}
+
+a:hover {
+    color: var(--secondary-color);
 }
 
 /* Media query: tablets and larger (768px) */
