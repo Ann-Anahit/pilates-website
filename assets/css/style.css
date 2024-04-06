@@ -148,20 +148,26 @@ nav ul li a:hover {
 footer {
     bottom: 100%;
     text-decoration: none;
+    vertical-align: middle;
 }
 
-.footer ul li {
-
-    font-size: 14px;
+.div_without_list_style_type ul li {
+    font-size: 150px;
     letter-spacing: 1px;
+    list-style-type: none;
+    margin-left: 34px;
 }
 
 footer #logofooter {
     width: 50px;
-    margin-bottom: 32px;
     float: left;
+    vertical-align: middle;
 }
 
+footer #company {
+    vertical-align: middle;
+    color: aquamarine;
+}
 
 #legalnav li {
     float: right;
@@ -171,7 +177,19 @@ footer #logofooter {
 
 .social {
     height: 25px;
-    text-decoration: none;
+}
+
+.tenasklni {
+    width: 50px;
+}
+
+.table_footer {
+    width: 100%;
+    align-self: center;
+}
+
+.self_align_right {
+    float: right;
 }
 
 /* Media query: tablets and larger (768px) */
