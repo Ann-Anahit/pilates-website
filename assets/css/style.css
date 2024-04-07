@@ -42,6 +42,10 @@ main {
     flex: 1;
 }
 
+#title {
+    font-weight: lighter;
+}
+
 .header-element.title {
     display: flex;
     align-items: center;
@@ -57,6 +61,8 @@ main {
     width: 100px;
     height: 200px;
 }
+
+
 
 /* main */
 
@@ -142,6 +148,13 @@ nav ul li a:hover {
     display: flex;
 }
 
+/* main home */
+p {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
 /* main about */
 
 .about {
@@ -185,17 +198,14 @@ form input {
     left: 24%;
     display: block;
     margin-bottom: 8px;
-    text-align: center;
 }
 
 form {
     text-align: center;
-    /* Centers the form and its contents horizontally */
 }
 
 input {
     margin: 0 auto;
-    /* Centers the input elements within the form */
     display: block;
 }
 
