@@ -45,7 +45,8 @@
 
             <h2 class="questions">We hope we were able to help you. <br>If you have any more questions, <br> please
                 write us a message.</h2>
-            <form action="submit.html" id="form" method="get">
+            <form name="myform" id="form1" autocomplete="off" method="post"
+                action="https://formdump.codeinstitute.net/">>
                 <h2>Contact</h2>
                 <p>We will get back to you as soon as possible!</p>
                 <label for="first-name">First Name</label>
@@ -63,7 +64,9 @@
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" placeholder="your message" rows="8" cols="32" required></textarea>
                 <br>
-                <input type="submit" name="send" class="styled-button" value="Send">
+                <input type="submit" name="send" class="styled-button" value="Send" id="form1" autocomplete="off"
+                    method="post" action="https://formdump.codeinstitute.net/">
+                >
             </form>
         </section>
     </main>
