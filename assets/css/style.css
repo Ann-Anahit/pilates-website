@@ -158,14 +158,26 @@ nav ul li a:hover {
 
 /* main contact */
 .contact {
-    text-decoration-color: #603F8B;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
 }
 
 form input {
     width: 250px;
     padding: 8px;
     box-sizing: content-box;
-    border-radius: 8px;
+    border-radius: 4px;
+    margin:
 }
 
 form label,
@@ -176,10 +188,17 @@ form input {
     text-align: center;
 }
 
-user agent stylesheet input[type="text" i] {
-    padding-block: 1px;
-    padding-inline: 2px;
+form {
+    text-align: center;
+    /* Centers the form and its contents horizontally */
 }
+
+input {
+    margin: 0 auto;
+    /* Centers the input elements within the form */
+    display: block;
+}
+
 
 
 /* Footer */
