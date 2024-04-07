@@ -46,20 +46,24 @@ main {
     font-weight: lighter;
 }
 
-.header-element.title {
+.header-element. {
     display: flex;
     align-items: center;
     gap: var(--basic-distance);
 }
 
-.header-element.title h1 {
+h1 {
     color: var(--primary-color);
-    margin: 0;
+
 }
 
 .header-element__logo img {
-    width: 100px;
+    width: 200px;
     height: 200px;
+    margin: 0;
+    display: flex;
+    gap: var(--basic-distance);
+
 }
 
 
