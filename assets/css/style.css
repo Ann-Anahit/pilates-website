@@ -237,10 +237,6 @@ footer #company {
     color: var(--primary-color);
 }
 
-.logo_width {
-    width: 35px;
-}
-
 .table_footer {
     width: 100%;
     align-self: center;
