@@ -1,6 +1,6 @@
 :root {
     --basic-distance: 16px;
-    --background-color: #dac5fc;
+    --background-color: #ffffff;
     --text-color: #333;
     --primary-color: #603F8B;
     --secondary-color: #FCD8C5;
@@ -13,7 +13,7 @@ html {
     padding: 0;
     height: 100%;
     width: 100%;
-    font-family: 'playfair-display-regular - latin', sans-serif;
+    font-family: 'Playfair Display', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,7 +42,7 @@ main {
     flex: 1;
 }
 
-.header-element. {
+.header-element {
     display: flex;
     align-items: center;
     gap: var(--basic-distance);
@@ -77,6 +77,8 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
+    font-size: 24px;
+    font-family: 'Playfair Display';
 }
 
 nav ul li a:hover {
@@ -142,18 +144,34 @@ nav ul li a:hover {
 
 /* main home */
 
-p {
-    line-height: 30px;
-    font-size: 16px;
+.welcome {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    line-height: 42px;
+    font-size: 32px;
     font-weight: lighter;
+}
+
+.pilates {
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    line-height: 48px;
+    font-style: initial;
+
 }
 
 .center {
     text-align: center;
 }
 
-#circle {
-    margin: 150px;
+#vertical {
+    width: 300px;
+    height: 400px;
+}
+
+#horizontal {
+    width: 400px;
+    height: 300px;
 }
 
 /* main about */
@@ -191,7 +209,7 @@ form input {
     padding: 8px;
     box-sizing: content-box;
     border-radius: 4px;
-    margin:
+
 }
 
 form label,
@@ -210,7 +228,11 @@ input {
     display: block;
 }
 
-
+/*main submit*/
+.heart {
+    width: 28px;
+    height: 28px;
+}
 
 /* Footer */
 
