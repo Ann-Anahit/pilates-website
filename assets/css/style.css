@@ -55,17 +55,12 @@ h1 {
 
 .header-element__logo img {
     width: 200px;
-    height: 200px;
+    height: 350px;
     margin: 0;
     display: flex;
     gap: var(--basic-distance);
 }
 
-/* main */
-
-.center {
-    text-align: center;
-}
 
 /* navbar */
 
@@ -146,10 +141,19 @@ nav ul li a:hover {
 }
 
 /* main home */
+
 p {
     line-height: 30px;
     font-size: 16px;
     font-weight: lighter;
+}
+
+.center {
+    text-align: center;
+}
+
+#circle {
+    margin: 150px;
 }
 
 /* main about */
