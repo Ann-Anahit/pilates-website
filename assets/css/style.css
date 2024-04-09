@@ -191,7 +191,13 @@ nav ul li a:hover {
 
 }
 
-.linehight {
+.white {
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.white .linehight {
     text-align: justify;
 }
 
@@ -232,9 +238,10 @@ th {
 
 /* main history */
 .machine {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 500px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .history {
@@ -259,7 +266,6 @@ video {
     margin-top: 60px;
     margin-bottom: 0;
     font-family: 'Playfair Display';
-
     line-height: 42px;
     font-size: 32px;
     color: var(--primary-color);
