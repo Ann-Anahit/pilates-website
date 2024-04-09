@@ -157,7 +157,6 @@ nav ul li a:hover {
 
 .welcome {
     font-family: 'Playfair Display';
-    font-style: italic;
     line-height: 42px;
     font-size: 32px;
     color: var(--primary-color);
@@ -186,6 +185,10 @@ nav ul li a:hover {
 }
 
 /* main about */
+.beginning {
+    margin-top: 50px;
+
+}
 
 .linehight {
     text-align: justify;
@@ -194,6 +197,31 @@ nav ul li a:hover {
 .about {
     line-height: 32px;
     font-family: sans-serif;
+
+}
+
+
+.self_align_first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 50px;
+    text-align: justify;
+
+}
+
+.space {
+    margin-bottom: 0;
+    gap: 0;
+}
+
+th {
+    font-family: 'Playfair Display';
+    font-size: 26px;
+    line-height: 100px;
+    display: flex;
+    margin-top: 0;
+
 }
 
 .two-columns {
@@ -201,34 +229,27 @@ nav ul li a:hover {
     column-gap: 50px;
 }
 
-.self_align_first {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-}
-
-.self_align_second {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-th {
-    font-family: 'Playfair Display';
-    font-size: 26px;
-
+.ending {
+    margin-bottom: 50px;
+    text-align: justify;
 }
 
 /* main history */
 .machine {
     width: 400px;
     height: 300px;
+    margin-bottom: 50px;
 }
 
 .history {
     font-family: sans-serif;
-    line-height: 30px;
+    line-height: 32px;
+
+    column-gap: 50px;
+    text-align: justify;
+    column-count: 2;
+    margin-bottom: 50px;
+
 }
 
 /* main video */
