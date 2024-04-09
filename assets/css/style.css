@@ -215,24 +215,6 @@ nav ul li a:hover {
 
 }
 
-th {
-    font-family: 'Playfair Display';
-    font-size: 26px;
-    line-height: 100px;
-    display: flex;
-    margin-top: 0;
-
-}
-
-.two-columns {
-    column-count: 2;
-    column-gap: 50px;
-}
-
-.ending {
-    margin-bottom: 50px;
-    text-align: justify;
-}
 
 /* main history */
 .machine {
