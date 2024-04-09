@@ -50,7 +50,7 @@ header {
 
 main {
     flex: 1;
-    text-align: justify;
+
 }
 
 .header-element {
@@ -160,7 +160,6 @@ nav ul li a:hover {
     font-style: italic;
     line-height: 42px;
     font-size: 32px;
-    font-weight: lighter;
     color: var(--primary-color);
 }
 
@@ -188,16 +187,37 @@ nav ul li a:hover {
 
 /* main about */
 
+.linehight {
+    text-align: justify;
+}
+
 .about {
+    line-height: 32px;
     font-family: sans-serif;
 }
 
-.linehight {
-    line-height: 30px;
+.two-columns {
+    column-count: 2;
+    column-gap: 50px;
 }
 
-.self_align_center {
-    vertical-align: middle;
+.self_align_first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.self_align_second {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+th {
+    font-family: 'Playfair Display';
+    font-size: 26px;
+
 }
 
 /* main history */
@@ -225,7 +245,6 @@ video {
     font-style: italic;
     line-height: 42px;
     font-size: 32px;
-    font-weight: lighter;
     color: var(--primary-color);
     text-align: center;
 }
@@ -234,11 +253,6 @@ video {
 .contact {
     color: var(--primary-color);
     text-align: center;
-
-}
-
-h2 {
-    font-weight: lighter;
 
 }
 
@@ -291,7 +305,6 @@ input {
     font-style: italic;
     font-size: 32px;
     line-height: 50px;
-    font-weight: lighter;
     color: var(--primary-color);
 }
 
