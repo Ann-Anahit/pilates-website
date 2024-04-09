@@ -211,11 +211,6 @@ nav ul li a:hover {
 
 }
 
-.space {
-    margin-bottom: 0;
-    gap: 0;
-}
-
 th {
     font-family: 'Playfair Display';
     font-size: 26px;
