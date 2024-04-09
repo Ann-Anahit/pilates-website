@@ -150,7 +150,7 @@ nav ul li a:hover {
 .background-image {}
 
 .background-image.home {
-    background-image: url(assets/images/pic_.jpg);
+    background-image: url(../assets/images/pic_.jpg);
 }
 
 .welcome {
@@ -227,10 +227,7 @@ nav ul li a:hover {
 .history {
     font-family: sans-serif;
     line-height: 32px;
-
-    column-gap: 50px;
     text-align: justify;
-    column-count: 2;
     margin-bottom: 50px;
 
 }
