@@ -48,14 +48,15 @@ main {
     gap: var(--basic-distance);
 }
 
-h1 {
-    color: var(--primary-color);
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 26px;
 
 }
 
 .header-element__logo img {
     width: 200px;
-    height: 350px;
+    height: 150px;
     margin: 0;
     display: flex;
     gap: var(--basic-distance);
@@ -77,8 +78,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 24px;
-    font-family: 'Playfair Display';
+    font-size: 28px;
 }
 
 nav ul li a:hover {
@@ -238,34 +238,35 @@ input {
 
 footer {
     bottom: 100%;
+    bottom: var(--basic-distance);
     text-decoration: none;
-    vertical-align: middle;
+    margin: 30px 0px;
+
 }
 
 
 footer #logofooter {
     width: 50px;
-    float: left;
-    vertical-align: middle;
+    height: 1rem;
+
 }
 
 footer #company {
-    vertical-align: middle;
-    color: var(--primary-color)
-}
-
-.social {
-    height: 15px;
     color: var(--primary-color);
-}
-
-.table_footer {
-    width: 100%;
-    align-self: center;
+    bottom: 1rem;
+    float: left;
 }
 
 .self_align_right {
+    position: relative;
+    bottom: 1rem;
+    right: 1rem;
     float: right;
+
+}
+
+.social {
+    height: 20px;
 }
 
 a:hover {
