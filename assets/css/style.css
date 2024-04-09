@@ -50,6 +50,7 @@ header {
 
 main {
     flex: 1;
+    text-align: justify;
 }
 
 .header-element {
@@ -160,6 +161,7 @@ nav ul li a:hover {
     line-height: 42px;
     font-size: 32px;
     font-weight: lighter;
+    color: var(--primary-color);
 }
 
 .pilates {
@@ -219,16 +221,31 @@ video {
 .start {
     margin-top: 60px;
     margin-bottom: 0;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    line-height: 42px;
+    font-size: 32px;
+    font-weight: lighter;
+    color: var(--primary-color);
+    text-align: center;
 }
 
 /* main contact */
 .contact {
     color: var(--primary-color);
     text-align: center;
+
 }
 
 h2 {
     font-weight: lighter;
+
+}
+
+.questions {
+    font-style: italic;
+    line-height: 50px;
+    font-size: 32px;
 }
 
 form {
@@ -265,6 +282,23 @@ input {
 .heart {
     width: 28px;
     height: 28px;
+}
+
+.submit {
+    text-align: center;
+    margin: 150px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 32px;
+    line-height: 50px;
+    font-weight: lighter;
+    color: var(--primary-color);
+}
+
+/*main privacypolicy*/
+.privacy {
+    font-family: sans-serif;
+    line-height: 30px;
 }
 
 /* Footer */
