@@ -159,7 +159,7 @@ nav ul li a:hover {
 }
 
 .background-image.home {
-    background-image: url(./assets/images/background.jpg);
+    background-image: url(/assets/images/background.jpg);
 }
 
 .homepage {
@@ -172,7 +172,7 @@ nav ul li a:hover {
 
 .welcome {
     font-family: 'Playfair Display';
-    line-height: 42px;
+    line-height: 50px;
     font-size: 32px;
     color: var(--primary-color);
     text-align: left;

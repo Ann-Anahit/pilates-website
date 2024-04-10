@@ -1,7 +1,7 @@
 # pilates-website
 The project "Harmony-Pilates" aims to promote an active lifestyle, particularly targeting individuals who work from home and spend prolonged periods sitting. Pilates, a form of exercise that involves controlled movements, not only strengthens muscles but also provides effective body stretching and enhances mental stability. It emphasizes the significance of movement in leading a fulfilling life. With this website, my intention is to raise awareness and understanding of pilates among people. By exploring the website, users will gain insights into the importance of balance and vitality in their lives.
 
-Visit the deployed website here → [Harmony Pilates Website](https://github.com/Ann-Anahit/pilates-website)
+Visit the deployed website here → [Harmony Pilates Website](https://ann-anahit.github.io/pilates-website/)
 
 ## Content
 
@@ -176,6 +176,7 @@ On this page is a text about the privacy policy of the page.
 5. Type *git clone* into the terminal and paste the link you have from number 3. Press enter. This command will download the entire repository to your local machine.
 
 [Back to top](<#content>)
+
 
 
 
