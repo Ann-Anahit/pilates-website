@@ -159,7 +159,7 @@ nav ul li a:hover {
 }
 
 .background-image.home {
-    background-image: url(./assets/imagassets/images/pic_.jpg);
+    background-image: url(/assets/images/pic_.jpg);
 }
 
 .welcome {
