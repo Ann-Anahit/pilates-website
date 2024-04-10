@@ -19,8 +19,8 @@ html {
     align-items: center;
     color: var(--text-color);
     background-color: var(--background-color);
-    padding: var(--basic-distance);
     box-sizing: border-box;
+    padding: var(--basic-distance);
 
 }
 
@@ -34,10 +34,19 @@ footer {
 }
 
 header {
-
+    appearance: none;
+    padding: var(--basic-distance);
+    padding: 5px;
+    margin-top: 0px;
+    border: 0.5px solid grey;
+    border-radius: 0px;
+    background-color: #E0FFFF;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: var(--basic-distance);
+    max-width: 100%;
 }
 
 main {
@@ -58,8 +67,7 @@ h2 {
 }
 
 .header-element__logo img {
-    width: 200px;
-    height: 150px;
+    width: 150px;
     margin: 0;
     display: flex;
     gap: var(--basic-distance);
@@ -81,7 +89,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
-    font-size: 28px;
+    font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -154,7 +162,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     min-height: 500px;
-    margin-bottom: 50px;
+
 
 }
 
@@ -172,19 +180,25 @@ nav ul li a:hover {
 
 .welcome {
     font-family: 'Playfair Display';
-    line-height: 50px;
+    line-height: px;
     font-size: 32px;
     color: var(--primary-color);
     text-align: left;
-
+    position: absolute;
+    bottom: 300px;
+    left: 16px;
+    padding: var(--basic-distance);
 }
 
 .pilates {
     font-family: 'Playfair Display';
     font-size: 20px;
-    line-height: 24px;
-    text-transform: lowercase;
+    line-height: 42px;
     text-align: left;
+    position: absolute;
+    bottom: 120px;
+    left: 20px;
+    padding: var(--basic-distance);
 }
 
 .vertical {
@@ -252,10 +266,11 @@ nav ul li a:hover {
 
 /* main video */
 video {
-    width: 400px;
-    height: 300px;
+    width: 100%;
+    height: 100%;
     margin: 3rem;
     text-align: justify;
+    padding: var(--basic-distance);
 }
 
 .start {
@@ -464,5 +479,17 @@ a:hover {
 
     }
 
+    .welcome {
+        font-size: 24px;
+        bottom: 800px;
+    }
 
-}
+    .pilates {
+        font-size: 16px;
+
+    }
+
+    .video {
+        display: flex;
+        flex-wrap: wrap;
+    }
