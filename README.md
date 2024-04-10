@@ -10,7 +10,7 @@ Visit the deployed website here → Harmony Pilates - (https://github.com/Ann-An
 * [Design](#design)
     * [Website Structure](#website-structure)
     * [Wireframes](#wireframes)
-    * [Color Scheme](#color-scheme)
+    * [Colors I used]
     * [Typography](#typography)
 * [Features and Future Features](#features-and-future-features)
     * [Features](#features)
@@ -73,8 +73,11 @@ contact page<br>
 ### Color Scheme
 
 - I used the color `#603F8B` in the navigation bar, for my logo and the icons in the bottom. 
-- As secondary color i used `#FCD8C5` in the navigation bar.
--At the bottom is a padding in this lightcyan color.
+- As secondary color I used `#FCD8C5` in the navigation bar.
+- At the bottom is a padding in this `#E0FFFF` color.
+- As text color I used `333333`.
+
+![Color Scheme](documentation/color-sheme.png)
 
 ### Typography
 

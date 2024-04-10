@@ -341,7 +341,7 @@ footer {
     margin-bottom: 10px;
     border: 0.5px solid grey;
     border-radius: 0px;
-    background-color: lightcyan;
+    background-color: #E0FFFF;
     font-size: 18px;
     font-weight: 100;
     display: flex;
@@ -418,7 +418,7 @@ a:hover {
         display: none;
         flex-direction: column;
         align-items: center;
-        background-color: lightcyan;
+        background-color: #E0FFFF;
         z-index: 200;
         width: 100%;
     }
