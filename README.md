@@ -1,7 +1,7 @@
 # pilates-website
 The project "Harmony-Pilates" aims to promote an active lifestyle, particularly targeting individuals who work from home and spend prolonged periods sitting. Pilates, a form of exercise that involves controlled movements, not only strengthens muscles but also provides effective body stretching and enhances mental stability. It emphasizes the significance of movement in leading a fulfilling life. With this website, my intention is to raise awareness and understanding of pilates among people. By exploring the website, users will gain insights into the importance of balance and vitality in their lives.
 
-Visit the deployed website here → Harmony Pilates - (https://github.com/Ann-Anahit/pilates-website)
+Visit the deployed website here → [Harmony Pilates Website](https://github.com/Ann-Anahit/pilates-website)
 
 ## Content
 
@@ -146,6 +146,35 @@ On this page is a text about the privacy policy of the page.
 - [Favicon.io](https://favicon.io/) to create favicon.
 - [Am I Responsive?](https://ui.dev/amiresponsive) to display the website image across various devices.
 - [Font Awesome](https://fontawesome.com/) to add icons on the website.
-- [Pixelied](https://pixelied.com/) to convert images to WebP.
-- [Tinify](https://tinypng.com/) to compress images.
-- [Appetize.io](https://appetize.io/) to simulate the iOS environment.
+- [Unsplash](https://unsplash.com/de) and [Vecteezy]https://de.vecteezy.com/ to get images.
+
+[Back to top](<#content>)
+
+## Deployment, Fork and Clone
+
+### Deployment
+
+1. Log in to GitHub.
+2. Go to the repository for the project.
+3. Click the settings button.
+4. Select **Pages** in the left navigation menu under Code and Automation.
+5. From the source dropdown select main branch and root. Press the save button.
+6. The site has been deployed. It may take a few minutes before the site goes live.
+
+### How to Fork
+
+1. Log in to GitHub.
+2. Go to the repository for the project.
+3. Click the Fork button in the top right corner.
+
+### How to Clone
+
+1. Log in to GitHub.
+2. Go to the repository for the project.
+3. Click on the **green code button** and select if you would like to clone with HTTPS, SSH or GitHub CLI and copy the link below.
+4. Navigate to the directory where you want to clone the repository and open terminal.
+5. Type *git clone* into the terminal and paste the link you have from number 3. Press enter. This command will download the entire repository to your local machine.
+
+[Back to top](<#content>)
+
+

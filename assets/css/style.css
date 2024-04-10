@@ -167,7 +167,7 @@ nav ul li a:hover {
     line-height: 42px;
     font-size: 32px;
     color: var(--primary-color);
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -176,7 +176,7 @@ nav ul li a:hover {
     font-size: 20px;
     line-height: 24px;
     text-transform: lowercase;
-    text-align: center;
+    text-align: left;
 }
 
 .vertical {
@@ -333,8 +333,6 @@ input {
 /* Footer */
 
 footer {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
     width: 100%;
     padding: 10px;
