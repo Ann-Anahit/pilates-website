@@ -244,10 +244,10 @@ nav ul li a:hover {
 
 /* main video */
 video {
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     margin: 3rem;
-
+    text-align: justify;
 }
 
 .start {

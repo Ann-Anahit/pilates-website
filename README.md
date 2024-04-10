@@ -77,7 +77,7 @@ contact page<br>
 - At the bottom is a padding in this `#E0FFFF` color.
 - As text color I used `333333`.
 
-![Color Scheme](documentation/color-sheme.png)
+![Harmony Pilates Color Scheme](documentation/color-sheme.png)
 
 ### Typography
 
@@ -86,12 +86,66 @@ The font I chose to use is [playfair-display](https://gwfh.mranftl.com/fonts/pla
 This website includes 7 pages and all of them are responsive. They are: Home, About, History, Videos, Contact, Form Submitted und privacy policy. On each page we have:
 
 - A favicon.<br>
-(documentation/favicon.png)
+![Harmony Pilates Favicon](documentation/favicon.png)
 
 - A navigation bar 
-(documentation/navigation-bar.png)
+![Harmony Pilates navigation-bar](documentation/navigation-bar.png)
 
 ### The Home Page
 
 On the home page the user will find the message **Welcome to our pilates website** which clearly gives the idea of what the website is about.Also the background picture shows a person doing pilates.
-(documentation/home-page.png)
+![Harmony Pilates Home Page](documentation/home-page.png) 
+
+### The About Page
+
+This page comprises three images of a person who shows some pilates poses, under the images is a text what about pilates is.
+![Harmony Pilates About Page](documentation/about1.png) 
+![Harmony Pilates About Page](documentation/about2.png) 
+![Harmony Pilates About Page](documentation/about3.png) 
+
+### The History Page
+
+On this page is a text about the history of pilates. The text is between two picturs.
+![Harmony Pilates History Page](documentation/history1.png)
+![Harmony Pilates History Page](documentation/history2.png)
+![Harmony Pilates History Page](documentation/history3.png)
+
+### Video Page
+
+Here the user will find two videos of a person who is doing pilates in the nature.
+![Harmony Pilates Videos Page](documentation/videos.png)
+
+### Contact Page
+
+There is a contact form and two figures on the bottom of the page.
+![Harmony Pilates Contact Page](documentation/contact1.png)
+![Harmony Pilates Contact Page](documentation/contact2.png)
+
+### Form Submitted Page
+
+This custom page was created to show up after a form is submitted, whether it's a contact form. The user cannot access it from the navigation bar.
+![Harmony Pilates Submitted Form Page](documentation/submitted-form.png)
+
+### The Privacy Policy Page
+
+On this page is a text about the privacy policy of the page. 
+![Harmony Pilates Privacy Policy Page](documentation/privacy-policy1.png)
+![Harmony Pilates Privacy Policy Page](documentation/privacy-policy2.png)
+
+[Back to top](<#content>)
+
+## Technologies and Sides Used
+
+- HTML5 to create the website structure.
+- CSS3 to style the website.
+- [Git](https://git-scm.com/) for version control.
+- [GitHub](https://github.com/) to store files for the website.
+- [Balsamiq Wireframes](https://www.balsamiq.com/) to create the wireframes.
+- [Chat GPT](https://chat.openai.com/) to generate texts about the  history of pilates.
+- [Google Fonts](https://fonts.google.com/) to import the font used on the website.
+- [Favicon.io](https://favicon.io/) to create favicon.
+- [Am I Responsive?](https://ui.dev/amiresponsive) to display the website image across various devices.
+- [Font Awesome](https://fontawesome.com/) to add icons on the website.
+- [Pixelied](https://pixelied.com/) to convert images to WebP.
+- [Tinify](https://tinypng.com/) to compress images.
+- [Appetize.io](https://appetize.io/) to simulate the iOS environment.
