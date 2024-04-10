@@ -145,8 +145,8 @@ On this page is a text about the privacy policy of the page.
 - [Google Fonts](https://fonts.google.com/) to import the font used on the website.
 - [Favicon.io](https://favicon.io/) to create favicon.
 - [Am I Responsive?](https://ui.dev/amiresponsive) to display the website image across various devices.
-- [Font Awesome](https://fontawesome.com/) to add icons on the website.
 - [Unsplash](https://unsplash.com/de) and [Vecteezy]https://de.vecteezy.com/ to get images.
+- [pixabay]https://pixabay.com/de/videos/ to get videos.
 
 [Back to top](<#content>)
 
@@ -176,5 +176,7 @@ On this page is a text about the privacy policy of the page.
 5. Type *git clone* into the terminal and paste the link you have from number 3. Press enter. This command will download the entire repository to your local machine.
 
 [Back to top](<#content>)
+
+
 
 
