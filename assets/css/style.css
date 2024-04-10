@@ -159,7 +159,13 @@ nav ul li a:hover {
 }
 
 .background-image.home {
-    background-image: url(assets/images/background.jpg);
+    background-image: url(assets/images/pic3.jpg);
+}
+
+.homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
 }
 
 .welcome {
