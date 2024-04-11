@@ -62,7 +62,7 @@ main {
     gap: var(--basic-distance);
 }
 
-h2 {
+h1 {
     font-family: 'Playfair Display';
     font-size: 30px;
     color: var(--primary-color);
