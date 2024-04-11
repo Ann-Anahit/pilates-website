@@ -46,8 +46,8 @@ header {
     max-width: 100%;
     gap: var(--basic-distance);
     z-index: 2;
-    position: absolute;
     top: 0;
+
 }
 
 main {
