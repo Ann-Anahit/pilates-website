@@ -195,16 +195,14 @@ nav ul li a:hover {
     left: 20px;
     padding: var(--basic-distance);
     border: 0 solid;
-    background-color: rgb(224, 255, 255, 0.5);
 }
 
 
-.vertical {
-    width: 300px;
-    height: 400px;
+.background-image-about {
+    width: 100%;
+    margin-top: 100px;
+
 }
-
-
 
 /* main about */
 .beginning {
