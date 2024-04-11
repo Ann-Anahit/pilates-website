@@ -35,8 +35,6 @@ footer {
 
 header {
     appearance: none;
-    padding: var(--basic-distance);
-    padding: 5px;
     margin-top: 0px;
     border: 0.5px solid grey;
     border-radius: 0px;
@@ -45,8 +43,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: var(--basic-distance);
     max-width: 100%;
+    gap: var(--basic-distance);
+
 }
 
 main {
@@ -62,7 +61,7 @@ main {
 
 h2 {
     font-family: 'Playfair Display';
-    font-size: 26px;
+    font-size: 32px;
 
 }
 
@@ -179,14 +178,12 @@ nav ul li a:hover {
 }
 
 .welcome {
-    font-family: 'Playfair Display';
-    line-height: px;
+
     font-size: 32px;
     color: var(--primary-color);
-    text-align: left;
+    text-align: center;
     position: absolute;
-    bottom: 300px;
-    left: 16px;
+    bottom: 400px;
     padding: var(--basic-distance);
 }
 
@@ -268,16 +265,11 @@ nav ul li a:hover {
 video {
     width: 100%;
     height: 100%;
-    margin: 3rem;
     text-align: justify;
-    padding: var(--basic-distance);
+
 }
 
 .start {
-    margin-top: 60px;
-    margin-bottom: 0;
-    font-family: 'Playfair Display';
-    line-height: 42px;
     font-size: 32px;
     color: var(--primary-color);
     text-align: center;
