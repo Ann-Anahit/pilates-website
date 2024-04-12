@@ -38,6 +38,7 @@ I tested the website in different browsers, both on computer and mobile.
  ## Automated Testing
 
  ### W3C Validator
+
 [W3C](https://validator.w3.org/) checked the HTML of the 7 pages, and they passed the validation. The full results of the validations are shown below.
 - [home page](documentation/testing/home-gage.png)
 - [about page](documentation/testing/about-page.png)
@@ -46,3 +47,12 @@ I tested the website in different browsers, both on computer and mobile.
 - [contact page](documentation/testing/contact-page.png)
 - [submit page](documentation/testing/submit-page.png)
 - [privacy policy page](documentation/testing/privacypolicy-page.png)
+
+### CSS Validator
+
+The CSS was validated by [W3C Jigsaw](https://jigsaw.w3.org/css-validator/) and passed the test. To see the full result, click on the name below.
+- [CSS](documentation/testing/css-validation.png)
+
+### Lighthouse
+
+I used Lighthouse to test the full performance of the website.
