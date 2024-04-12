@@ -36,15 +36,13 @@ footer {
 header {
     appearance: none;
     margin-top: 0px;
-    border: 0.5px solid grey;
+    padding: var(--basic-distance);
     border-radius: 0px;
     background-color: #E0FFFF;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
-    gap: var(--basic-distance);
     z-index: 2;
     top: 0;
 
@@ -163,6 +161,7 @@ nav ul li a:hover {
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
+    max-width: 1280px;
     height: 100%;
     min-height: 500px;
     z-index: 1;
@@ -179,7 +178,7 @@ nav ul li a:hover {
 
 .welcome {
     text-align: center;
-    padding: var(--basic-distance);
+    padding: 50px;
 
 }
 
@@ -190,10 +189,9 @@ nav ul li a:hover {
     line-height: 42px;
     text-align: left;
     position: absolute;
-    bottom: 120px;
-    left: 20px;
-    padding: 30px;
-    border: 0.5 solid;
+    left: 10px;
+    padding: 10px;
+
 }
 
 
@@ -313,10 +311,14 @@ input {
 }
 
 /*main privacypolicy*/
+.text-format {
+    margin-top: 100px;
+}
+
 .privacy {
     font-family: sans-serif;
     line-height: 30px;
-    margin-top: 50px;
+
 }
 
 /* Footer */
@@ -325,7 +327,6 @@ footer {
     appearance: none;
     padding: var(--basic-distance);
     margin-bottom: 10px;
-    border: 0.5px solid grey;
     border-radius: 0px;
     background-color: #E0FFFF;
     font-size: 18px;
@@ -377,6 +378,7 @@ a:hover {
     header {
         align-items: flex-start;
         max-height: 100px;
+
     }
 
     .header-element.title {
@@ -421,6 +423,10 @@ a:hover {
         max-width: 410px;
     }
 
+    .pilates {
+        padding: 16px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -446,14 +452,15 @@ a:hover {
 
     .welcome {
         font-size: 24px;
-        bottom: 800px;
+        bottom: 500px;
+
     }
 
     .pilates {
         font-size: 14px;
         line-height: 24px;
-        bottom: 60px;
-        width: 216px;
+        bottom: 150px;
+
 
     }
 
