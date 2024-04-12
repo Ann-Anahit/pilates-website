@@ -56,3 +56,41 @@ The CSS was validated by [W3C Jigsaw](https://jigsaw.w3.org/css-validator/) and 
 ### Lighthouse
 
 I used Lighthouse to test the full performance of the website.
+
+#### Mobile Results
+
+- Home Page<br>
+![Home page](documentation/testing/mobile-lh-home.png)<br><br>
+- About Page<br>
+![About page](documentation/testing/mobile-lh-about.png)<br><br>
+- History Page<br>
+![History page](documentation/testing/mobile-lh-history.png)<br><br>
+- Videos Page<br>
+![Videos page](documentation/testing/mobile-lh-videos.png)<br><br>
+- Contact Page<br>
+![Contact page](documentation/testing/mobile-lh-contact.png)<br><br>
+- Submit Page<br>
+![Submit page](documentation/testing/mobile-lh-submit.png)<br><br>
+- Privacy Policy Page<br>
+![Privacy Policy page](documentation/testing/mobile-lh-privacypolicy.png)<br>
+
+#### Desktop Results
+
+
+- Home Page<br>
+![Home page](documentation/testing/lighthouse-home.png)<br><br>
+- About Page<br>
+![About page](documentation/testing/lighthouse-about.png)<br><br>
+- History Page<br>
+![History page](documentation/testing/lighthouse-history.png)<br><br>
+- Videos Page<br>
+![Videos page](documentation/testing/lighthouse-videos.png)<br><br>
+- Contact Page<br>
+![Contact page](documentation/testing/lighthouse-contact.png)<br><br>
+- Submit Page<br>
+![Submit page](documentation/testing/lighthouse.submit.png)<br><br>
+- Privacy Policy Page<br>
+![Privacy Policy page](documentation/testing/lighthouse-privacypolicy.png)<br>
+ 
+
+[Back to top](<#content>)
