@@ -186,12 +186,8 @@ nav ul li a:hover {
     font-family: 'Playfair Display';
     font-size: 20px;
     color: var(--primary-color);
-    line-height: 42px;
-    position: absolute;
-    bottom: 95px;
-    left: 40%;
-    transform: translateX(-50%);
-    padding: 5px;
+    line-height: 30px;
+    margin: 300px 50px 20px 5px;
 
 }
 
@@ -424,6 +420,10 @@ a:hover {
         max-width: 410px;
     }
 
+    .pilates {
+        margin: 200px 50px 40px 5px;
+    }
+
 }
 
 @media screen and (max-width: 320px) {
@@ -455,7 +455,8 @@ a:hover {
 
     .pilates {
         font-size: 14px;
-        line-height: 24px;
+        line-height: 18px;
+        margin: 200px 50px 20px 5px;
 
     }
 
