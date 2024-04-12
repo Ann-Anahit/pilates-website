@@ -3,6 +3,9 @@ The project "Harmony-Pilates" aims to promote an active lifestyle, particularly 
 
 Visit the deployed website here → [Harmony Pilates Website](https://ann-anahit.github.io/pilates-website/)
 
+![Harmony Pilates](documentation/testing/am_i_responsive.png)
+
+
 ## Content
 
 * [User Experience](#user-experience-ux)
@@ -13,15 +16,12 @@ Visit the deployed website here → [Harmony Pilates Website](https://ann-anahit
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
 * [Features](#features)
-* [Technologies Used](#technologies-used)
+* [Technologies and Media](#technologies-used)
 * [Deployment, Fork and Clone](#deployment-fork-and-clone)
     * [Deployment](#deployment)
     * [Fork](#how-to-fork)
     * [Clone](#how-to-clone)
 * [Testing](#testing)
-* [Credits](#credits)
-* [Content](#content)
-* [Media](#media)
 * [Acknowledgments](#acknowledgments)
 
 ## User Experience (UX)
@@ -141,7 +141,7 @@ On this page is a text about the privacy policy of the page.
 
 [Back to top](<#content>)
 
-## Technologies and Sides Used
+## Technologies and Media
 
 - HTML5 to create the website structure.
 - CSS3 to style the website.
@@ -188,4 +188,11 @@ On this page is a text about the privacy policy of the page.
 
 Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
+## Acknowledgments
 
+I would like to acknowledge:
+
+- Tristan Ackermann, Davit Zakharyan and Ganeshdip Dumbare who are supporting me.
+- Jubril Akolade - My Code Institute mentor.
+
+[Back to top](<#content>)
