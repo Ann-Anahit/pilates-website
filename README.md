@@ -108,18 +108,18 @@ This page comprises three images of a person who shows some pilates poses, under
 On this page is a text about the history of pilates. The text is between two picturs.
 ![Harmony Pilates History Page](documentation/history1.png)
 ![Harmony Pilates History Page](documentation/history2.png)
-![Harmony Pilates History Page](documentation/history3.png)
 
 ### Video Page
 
 Here the user will find two videos of a person who is doing pilates in the nature.
-![Harmony Pilates Videos Page](documentation/videos.png)
+![Harmony Pilates Videos Page](documentation/video1.png)
+![Harmony Pilates Videos Page](documentation/video2.png)
 
 ### Contact Page
 
 There is a contact form and two figures on the bottom of the page.
-![Harmony Pilates Contact Page](documentation/contact1.png)
-![Harmony Pilates Contact Page](documentation/contact2.png)
+![Harmony Pilates Contact Page](documentation/contact.png)
+
 
 ### Form Submitted Page
 
