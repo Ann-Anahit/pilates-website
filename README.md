@@ -10,19 +10,15 @@ Visit the deployed website here → [Harmony Pilates Website](https://ann-anahit
 * [Design](#design)
     * [Website Structure](#website-structure)
     * [Wireframes](#wireframes)
-    * [Colors I used]
+    * [Color Scheme](#color-scheme)
     * [Typography](#typography)
-* [Features and Future Features](#features-and-future-features)
-    * [Features](#features)
-    * [Future Features](#future-features)
+* [Features](#features)
 * [Technologies Used](#technologies-used)
 * [Deployment, Fork and Clone](#deployment-fork-and-clone)
     * [Deployment](#deployment)
     * [Fork](#how-to-fork)
     * [Clone](#how-to-clone)
 * [Testing](#testing)
-* [Bugs](#bugs)
-    * [Known Bugs](#known-bugs)
 * [Credits](#credits)
 * [Content](#content)
 * [Media](#media)
@@ -86,6 +82,13 @@ contact page<br>
 ### Typography
 
 The font I chose to use is [playfair-display](https://gwfh.mranftl.com/fonts/playfair-display?subsets=latin) from Google Fonts and as a fall back font, sans-serif.
+![playfair-display](documentation/font.png)
+
+
+[Back to top](<#content>)
+
+
+### Features
 
 This website includes 7 pages and all of them are responsive. They are: Home, About, History, Videos, Contact, Form Submitted und privacy policy. On each page we have:
 
@@ -181,7 +184,8 @@ On this page is a text about the privacy policy of the page.
 
 [Back to top](<#content>)
 
+## Testing
 
-
+Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
 
 
