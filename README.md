@@ -40,13 +40,17 @@ Visit the deployed website here → [Harmony Pilates Website](https://ann-anahit
 * I want the website to be easy to navigate
 
 #### Frequent User
+
 * I want to start with pilates.
+* I want to contact the harmony pilates 
+
+[Back to top](<#content>)
 
 ## Design
 
 ### Website Structure
 
-The website consists of a 7-page website, with 5 pages navigable via the navigation bar and the seventh being a customized page to inform the user that the content of the form has been submitted. The home page is the default loading page. The logo is in the top left corner and the menu is in the top right corner. This navigation bar on small screen devices ends up centralizing the three elements and the menu becomes a dropdown menu.
+The website consists of a 7-page website, with 5 pages navigable via the navigation bar, the sixth is privacy policy page, which is placed at the bottom of the page and the seventh being a customized page to inform the user that the content of the form has been submitted. The home page is the default loading page. The logo is in the top left corner and the menu is in the top right corner. This navigation bar the menu on small screen devices becomes a dropdown menu.
 
 ### Wireframes
 
@@ -72,9 +76,9 @@ contact page<br>
 
 ### Color Scheme
 
-- I used the color `#603F8B` in the navigation bar, for my logo and the icons in the bottom. 
-- As secondary color I used `#FCD8C5` in the navigation bar.
-- At the bottom is a padding in this `#E0FFFF` color.
+- I used the color `#603F8B` as a primary color for the titles, in the navigation bar, for my logo and the icons in the bottom. 
+- As a secondary color I used `#FCD8C5`. This color appears when the user hovers over the menue navbar. 
+- The navigation bar and the bottom have this `#E0FFFF` color.
 - As text color I used `333333`.
 
 ![Harmony Pilates Color Scheme](documentation/color-sheme.png)
@@ -93,7 +97,7 @@ This website includes 7 pages and all of them are responsive. They are: Home, Ab
 
 ### The Home Page
 
-On the home page the user will find the message **Welcome to our pilates website** which clearly gives the idea of what the website is about.Also the background picture shows a person doing pilates.
+On the home page the user will find the message **Welcome to Harmony Pilates!** which clearly gives the idea of what the website is about. The image shows a Pilates mat set up for exercise, featuring harmonious colors.
 ![Harmony Pilates Home Page](documentation/home-page.png) 
 
 ### The About Page
@@ -111,13 +115,13 @@ On this page is a text about the history of pilates. The text is between two pic
 
 ### Video Page
 
-Here the user will find two videos of a person who is doing pilates in the nature.
+Here, the user will discover two videos showcasing a person practicing Pilates amidst nature.
 ![Harmony Pilates Videos Page](documentation/video1.png)
 ![Harmony Pilates Videos Page](documentation/video2.png)
 
 ### Contact Page
 
-There is a contact form and two figures on the bottom of the page.
+TOn this page is a contact form and two figures at the bottom of the page.
 ![Harmony Pilates Contact Page](documentation/contact.png)
 
 
